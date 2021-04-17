@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "Elucidata-task": {
@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Elucidata-task:build"
+            "browserTarget": "Elucidata-task:build",
+            "proxyConfig": "src/proxy.conf.json"
           },
           "configurations": {
             "production": {
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Elucidata-task"
+    }
+  },
+  "defaultProject": "Elucidata-task",
+  "cli": {
+    "analytics": "2d6de396-5ac8-4d26-ac8b-89ce8a94353a"
+  }
 }

@@ -1,1 +1,147 @@
 /* You can add global styles to this file, and also import other style files */
+.find-search-compo {
+  background-color: #d2cbcb8f;
+}
+.bg-header {
+  background-color: #6050dc;
+  height: 105px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 5% 97%;
+}
+
+.header-text {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.card-details {
+  min-height: 280px;
+  cursor: pointer;
+}
+
+.loc-details {
+  color: #1e6ed0;
+  font-weight: 600;
+}
+.font-detail {
+  color: #585656c7;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.card-title {
+  min-height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+}
+
+.jobs-details {
+  margin-top: 100px;
+}
+div.card-body {
+  margin-top: 15px;
+}
+
+.color-logo {
+  position: absolute;
+  top: -26px;
+  left: 20px;
+  width: 56px;
+  height: 40px;
+  background-color: hotpink;
+  border-radius: 7px;
+}
+img {
+  width: 100%;
+  padding: 5px;
+  object-fit: contain;
+}
+.search-part {
+  top: 62px;
+  left: 12px;
+  background: white;
+  padding: 12px;
+  border-radius: 5px;
+}
+div.input-group input {
+  border: none;
+}
+input.form-control:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.icon-transperant {
+  color: #6050dc;
+  font-size: 22px;
+  background: transparent;
+}
+.p-8 {
+  padding: 8px;
+}
+
+.search-part .search-contains {
+  border-right: 2px solid #58565659;
+}
+.searchlabel {
+  color: #585656c7;
+}
+.des-content {
+  background-color: violet;
+  height: 136px;
+}
+.job-desc-content {
+  background-color: #d2cbcb8f;
+}
+.job-main-content {
+  padding: 10px;
+  margin-top: 110px;
+}
+.fs-23 {
+  font-size: 23px;
+  margin: 0;
+}
+.job-detail {
+  color: #464343d9;
+  font-weight: 600;
+}
+.applytojob-detail {
+  background-color: #6050dc;
+  height: 180px;
+  border-radius: 6px;
+  padding: 25px;
+}
+.footer-details{
+  background: white;
+  padding: 25px;
+}
+.expand-search-part {
+  top: 62px;
+  left: -11px;
+  background: white;
+  padding: 0;
+  border-radius: 5px;
+  width: 102%;
+}
+.expandcolor-logo{
+  position: absolute;
+  top: 19px;
+  left: 46px;
+  width: 100px;
+  height: 100px;
+}
+.m-0{
+  margin: 0;
+}
+.reverse-icon{
+  color: white;
+  font-size: 20px;
+  cursor:pointer;
+  margin-top: 3px;
+}
+.go-to{
+  font-size: 15px;
+  font-weight: 600;
+}

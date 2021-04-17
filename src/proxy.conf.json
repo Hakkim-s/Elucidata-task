@@ -1,0 +1,11 @@
+
+{
+    "/api": {
+      "target": "https://jobs.github.com/positions.json",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }

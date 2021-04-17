@@ -1,0 +1,68 @@
+<section class="find-search-compo">
+    <header class="bg-header">
+        <div class="container">
+            <nav class="navbar position-relative">
+                <a class="navbar-brand header-text">devjobs</a>
+
+                <div class="container-fluid position-absolute search-part">
+                    <div class="d-flex">
+                        <div class="col-md-6 search-contains">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <button type="button" class="btn icon-transperant">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search...">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 search-contains">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <button type="button" class="btn icon-transperant">
+                                        <i class="fa fa-map-marker"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Filter by Location">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-8">
+                            <input type='checkbox'>
+                            <label class="mx-1 searchlabel">Full time Only</label>
+                            <button class="btn btn-primary btn-outline-primary text-white mx-4"
+                                type="button">Search</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container jobs-details">
+        <div class="row mx-0">
+            <div class="col-lg-4" *ngFor="let item of data" (click)="expandJobs(item)">
+                <div class="card card-details my-4">
+
+                    <div class="card-body">
+                        <p class="font-detail">{{item.created_at | amTimeAgo}} .
+                            {{item.type}}</p>
+                        <h5 class="card-title ">{{item.title}}</h5>
+                        <p class="card-text font-detail">{{item.company}}</p>
+
+                        <p class="loc-details ">{{item.location}}</p>
+                    </div>
+                    <div class="color-logo">
+                        <img src={{item.company_logo}} alt="l'go" width="30" height="35">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>

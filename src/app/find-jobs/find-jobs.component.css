@@ -1,0 +1,86 @@
+/* .find-search-compo {
+  background-color: #d2cbcb8f;
+}
+.bg-header {
+  background-color: #6050dc;
+  height: 105px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 5% 97%;
+}
+
+.header-text {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.card-details {
+  min-height: 280px;
+}
+
+.loc-details {
+  color: #1e6ed0;
+  font-weight: 600;
+}
+.font-detail {
+  color: #585656c7;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.card-title {
+  min-height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+}
+
+.jobs-details {
+  margin-top: 100px;
+}
+div.card-body {
+  margin-top: 15px;
+}
+
+.color-logo {
+  position: absolute;
+  top: -26px;
+  left: 20px;
+  width: 56px;
+  height: 40px;
+  background-color: hotpink;
+  border-radius: 7px;
+}
+img {
+  width: 100%;
+  padding: 5px;
+}
+.search-part{
+    top: 62px;
+    left: 12px;
+    background: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+div.input-group input{
+    border: none;
+
+}
+input.form-control:focus, textarea:focus, select:focus{
+    outline: none;
+    box-shadow:none;
+}
+.icon-transperant{
+    color: #6050dc;
+    font-size: 22px;
+    background: transparent;
+}
+.p-8{
+    padding: 8px;
+}
+
+.search-part .search-contains{
+    border-right: 2px solid #58565659;
+}
+.searchlabel{
+    color: #585656c7;
+} */
